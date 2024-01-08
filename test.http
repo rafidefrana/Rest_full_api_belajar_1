@@ -1,0 +1,32 @@
+###
+POST http://127.0.0.1:3000
+Content-Type: application/json
+Accept: application/json
+
+{
+    "todo": "full stack developer"
+}
+
+GET http://127.0.0.1:3000
+
+
+
+
+###
+PUT http://127.0.0.1:3000
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id" : 0,
+    "todo" : "rafi defrana"
+}
+
+###
+DELETE http://127.0.0.1:3000
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id": 0
+}
